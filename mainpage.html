@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hamm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="left-navbar">
+        <a class="left-navbar-item active" href="#">
+          <div class="left-navbar-item-content">hamm</div>
+        </a>
+        <a class="left-navbar-item" href="#">
+          <div class="left-navbar-item-content">
+            <i class="bi bi-bag-fill"></i>hamm<span class="dark-green"
+              >shop</span
+            >
+          </div>
+        </a>
+        <a class="left-navbar-item" href="#">
+          <div class="left-navbar-item-content">
+            hamm<span class="custom-grey">evleri</span>
+          </div>
+        </a>
+        <a class="left-navbar-item" href="#">
+          <div class="left-navbar-item-content">
+            hamm<span class="custom-grey">ateller</span>
+          </div>
+        </a>
+        <a class="left-navbar-item" href="#">
+          <div class="left-navbar-item-content no-border">
+            <span class="red-orange bold">ilham</span>
+          </div>
+        </a>
+      </div>
+      <dvi class="right-navbar">
+        <a class="right-navbar-item" href="#">Kariyer</a>
+        <a class="right-navbar-item" href="#">Mağazalar</a>
+        <a class="right-navbar-item" href="#">İletişim</a>
+        <a class="right-navbar-item lang" href="#">TR</a>
+        <a class="right-navbar-item lang ml-0" href="#">EN</a>
+      </dvi>
+    </div>
+    <div id="introCarousel" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#introCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#introCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#introCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/mainpage_background.svg"
+            class="d-block"
+            alt="background1"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/mainpage_background.svg"
+            class="d-block"
+            alt="background2"
+          />
+        </div>
+        <div class="carousel-item">
+          <video autoplay muted loop class="d-block">
+            <source src="./assets/mov_bbb.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="main-menu-container">
+      <div class="main-menu-subcontainer">
+        <div class="logo-container">
+          <img class="logo" src="./assets/hamm_logo.svg" alt="logo" />
+        </div>
+        <div class="main-menu">
+          <div id="shop" class="main-menu-item custom-green">Shop</div>
+          <div id="plus" class="main-menu-item">Plus</div>
+          <div id="kuru" class="main-menu-item">Kurumsal</div>
+          <div id="tasa" class="main-menu-item">Tasarımcılar</div>
+          <div id="hakk" class="main-menu-item">Hakkımızda</div>
+        </div>
+      </div>
+      <div class="sub-menu-wrapper">
+        <div class="sub-menu-container hidden">
+          <div id="shopSubMenu" class="sub-menu hidden">
+            <a id="shopSubMenuItem1" class="sub-menu-item" href="#">Ürünler</a>
+            <a id="shopSubMenuItem2" class="sub-menu-item" href="#"
+              >Konseptler</a
+            >
+            <a id="shopSubMenuItem3" class="sub-menu-item" href="#"
+              >E-Katalog</a
+            >
+            <a id="shopSubMenuItem4" class="sub-menu-item" href="#"
+              >Malzeme Kütüphanesi</a
+            >
+          </div>
+          <div id="plusSubMenu" class="sub-menu hidden">
+            <a id="plusSubMenuItem1" class="sub-menu-item" href="#"
+              >Plus Nedir</a
+            >
+            <a id="plusSubMenuItem2" class="sub-menu-item" href="#"
+              >Plus Başvuru</a
+            >
+            <a id="plusSubMenuItem3" class="sub-menu-item" href="#"
+              >Plus Evleri</a
+            >
+          </div>
+          <div id="kuruSubMenu" class="sub-menu hidden">
+            <a id="kuruSubMenuItem1" class="sub-menu-item" href="#"
+              >Kurumsal Projeler</a
+            >
+            <a id="kuruSubMenuItem2" class="sub-menu-item" href="#">Başvuru</a>
+            <a id="kuruSubMenuItem3" class="sub-menu-item" href="#"
+              >Kurumsal Katalog</a
+            >
+            <a id="kuruSubMenuItem4" class="sub-menu-item" href="#"
+              >2D / 3D Çizimler</a
+            >
+          </div>
+          <div id="tasaSubMenu" class="sub-menu hidden">
+            <a id="tasaSubMenuItem1" class="sub-menu-item" href="#"
+              >Tasarımcılarımız Kimler</a
+            >
+            <a id="tasaSubMenuItem2" class="sub-menu-item" href="#"
+              >Tasarımcı Başvuru</a
+            >
+          </div>
+          <div id="hakkSubMenu" class="sub-menu hidden">
+            <a id="hakkSubMenuItem1" class="sub-menu-item" href="#"
+              >Hikayemiz</a
+            >
+            <a id="hakkSubMenuItem2" class="sub-menu-item" href="#"
+              >Sürdürülebilirlik</a
+            >
+            <a id="hakkSubMenuItem3" class="sub-menu-item" href="#"
+              >Ham:maddeler</a
+            >
+            <a id="hakkSubMenuItem4" class="sub-menu-item" href="#">Günce</a>
+          </div>
+          <div class="sub-menu-images">
+            <img
+              class="sub-menu-image"
+              src="./assets/submenu_img0.png"
+              alt="submenu image"
+            />
+            <img
+              class="sub-menu-image"
+              src="./assets/submenu_img1.png"
+              alt="submenu image"
+            />
+            <img
+              class="sub-menu-image"
+              src="./assets/submenu_img2.png"
+              alt="submenu image"
+            />
+          </div>
+        </div>
+        <div class="collapse-menu">
+          <div class="accordion accordion-flush" id="headerAccordionMenu">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingShop">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseShop"
+                  aria-expanded="false"
+                  aria-controls="collapseShop"
+                >
+                  Shop
+                </button>
+              </h2>
+              <div
+                id="collapseShop"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingShop"
+                data-bs-parent="#headerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#">Ürünler</a>
+                  <a class="collapse-sub-menu-item" href="#">Konseptler</a>
+                  <a class="collapse-sub-menu-item" href="#">E-Katalog</a>
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Malzeme Kütüphanesi</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingPlus">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsePlus"
+                  aria-expanded="false"
+                  aria-controls="collapsePlus"
+                >
+                  Plus
+                </button>
+              </h2>
+              <div
+                id="collapsePlus"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingPlus"
+                data-bs-parent="#headerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#">Plus Nedir</a>
+                  <a class="collapse-sub-menu-item" href="#">Plus Başvuru</a>
+                  <a class="collapse-sub-menu-item" href="#">Plus Evleri</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingKuru">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseKuru"
+                  aria-expanded="false"
+                  aria-controls="collapseKuru"
+                >
+                  Kurumsal
+                </button>
+              </h2>
+              <div
+                id="collapseKuru"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingKuru"
+                data-bs-parent="#headerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Kurumsal Projeler</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#">Başvuru</a>
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Kurumsal Katalog</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#"
+                    >2D / 3D Çizimler</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTasa">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTasa"
+                  aria-expanded="false"
+                  aria-controls="collapseTasa"
+                >
+                  Tasarımcılar
+                </button>
+              </h2>
+              <div
+                id="collapseTasa"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTasa"
+                data-bs-parent="#headerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Tasarımcılarımız Kimler</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Tasarımcı Başvuru</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingHakk">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseHakk"
+                  aria-expanded="false"
+                  aria-controls="collapseHakk"
+                >
+                  Hakkımızda
+                </button>
+              </h2>
+              <div
+                id="collapseHakk"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingHakk"
+                data-bs-parent="#headerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#">Hikayemiz</a>
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Sürdürülebilirlik</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#">Ham:maddeler</a>
+                  <a class="collapse-sub-menu-item" href="#">Günce</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse-right-navbar">
+            <a class="collapse-right-navbar-item" href="#">Kariyer</a>
+            <a class="collapse-right-navbar-item" href="#">Mağazalar</a>
+            <a class="collapse-right-navbar-item" href="#">İletişim</a>
+          </div>
+          <div class="collapse-login-group">
+            <button type="button" class="collapse-login">
+              <img
+                class="collapse-login-icon"
+                src="./assets/user.svg"
+                alt="login icon"
+              />
+            </button>
+            Üye Ol / Giriş Yap
+          </div>
+          <div class="collapse-lang">
+            <span class="active">TR</span>
+            <span>EN</span>
+          </div>
+          <div class="social-icons">
+            <a class="social-icon-container" href="#">
+              <img src="./assets/facebook.svg" alt="facebook" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/twitter.svg" alt="twitter" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/instagram.svg" alt="instagram" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/youtube.svg" alt="youtube" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/pinterest.svg" alt="pinterest" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="login" type="button">
+        <img class="login-icon" src="./assets/user.svg" alt="login icon" />
+      </button>
+      <button class="collapse-toggle-btn" type="button">
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x-lg"></i>
+      </button>
+    </div>
+    <div class="text-area text-center">
+      <p class="text-center">
+        Ham:m bizim için gerçeğe dönüşen bir ideal. Doğal ve kaliteli malzemeler
+        kullanarak el işçiliği ile üretiyoruz. Kültürümüzden ilham alıyor,
+        şimdiye yöneliyoruz. Böylece geçmişin izlerinden kopmamakla beraber
+        geleceğin antikalarına ışık tutuyoruz.
+      </p>
+      <a href="#">Hikayemiz</a>
+    </div>
+    <div class="sofa-section">
+      <div class="sofas row">
+        <div class="col-lg-6 sofa-container">
+          <a href="#"><img src="./assets/sofa1.png" alt="sofa1" /></a>
+          <a href="#"><img src="./assets/sofa2.png" alt="sofa2" /></a>
+        </div>
+        <div class="col-lg-6 sofa-container">
+          <a href="#"><img src="./assets/sofa3.png" alt="sofa3" /></a>
+          <a href="#"><img src="./assets/sofa4.png" alt="sofa4" /></a>
+        </div>
+      </div>
+      <div class="sofa-text text-center">
+        <h2>Yeni Ürünler</h2>
+        <p>Şimdi yeni ürünlerimizi keşfet!</p>
+        <a href="https://shop.hamm.com.tr">shop.hamm.com.tr</a>
+      </div>
+    </div>
+    <div class="background-clickable">
+      <div class="sofa-text">
+        <h2>DAVUL SERİSİ</h2>
+        <p>Seçili ürünlerde %15 indirim</p>
+        <a href="#">İNCELE</a>
+      </div>
+      <div class="lightbox-point">
+        <img src="./assets/lightbox_pointer.svg" alt="lightbox pointer" />
+        <div class="lightbox">
+          <div class="lightbox-img-container">
+            <img
+              class="lightbox-img"
+              src="./assets/grey_sofa.png"
+              alt="lightbox image"
+            />
+            <button type="button" class="lightbox-close">
+              <i class="bi bi-x-lg"></i>
+            </button>
+          </div>
+          <div class="lightbox-text text-center">
+            <h5>Dest Çalışma Masası</h5>
+            <p>Meşe, Hazeran Kapaklı</p>
+            <a href="#">İncele</a>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+    <div class="our-project">
+      <div id="projectWithSlide" class="project-wrapper">
+        <img id="phantom-img" src="./assets/project2.png" alt="project image" />
+        <div class="project-description">
+          <h1>Kurumsal Projeler</h1>
+          <p>
+            Ham:m Kurumsal ile sadece evlerinizde değil, iş yerlerinizde veya
+            ofislerinizde de yeni yaşam alanları oluşturuyoruz. Bunun için iş
+            yerlerinizde, ticari alanlarda, eğitim kurumlarında büyük küçük
+            ayırt etmeksizin her ölçekte Ham:m uzmanlığını size sağlıyoruz.
+          </p>
+          <a href="#">TÜMÜNÜ GÖR</a>
+        </div>
+        <div id="slider" class="slider">
+          <div class="controls">
+            <a id="prev" class="control prev">
+              <i class="bi bi-chevron-left"></i>
+            </a>
+            <a id="next" class="control next">
+              <i class="bi bi-chevron-right"></i>
+            </a>
+          </div>
+          <div class="wrapper">
+            <div id="items" class="items">
+              <span class="customSlide">
+                <img
+                  class="slider-image"
+                  src="./assets/slider1.png"
+                  alt="slide image"
+                />
+                <div class="slide-context">
+                  <div class="slide-text">
+                    <h5>Psikolog Zeynep Çatay Klinik</h5>
+                    <p>Ofis-İşyeri</p>
+                  </div>
+                  <div class="slide-symbol-container">
+                    <img src="./assets/hamm_logo.svg" alt="symbol" />
+                  </div>
+                </div>
+              </span>
+              <span class="customSlide">
+                <img
+                  class="slider-image"
+                  src="./assets/slider2.png"
+                  alt="slide image"
+                />
+                <div class="slide-context">
+                  <div class="slide-text">
+                    <h5>Dilara Koçak Diyetisyenlik</h5>
+                    <p>Ofis-İşyeri</p>
+                  </div>
+                  <img
+                    class="slide-symbol"
+                    src="./assets/symbol1.svg"
+                    alt="symbol"
+                  />
+                </div>
+              </span>
+              <span class="customSlide">
+                <img
+                  class="slider-image"
+                  src="./assets/fullwidth_slide1.png"
+                  alt="slide image"
+                />
+                <div class="slide-context">
+                  <div class="slide-text">
+                    <h5>Psikolog Zeynep Çatay Klinik</h5>
+                    <p>Ofis-İşyeri</p>
+                  </div>
+                  <div class="slide-symbol-container">
+                    <img src="./assets/hamm_logo.svg" alt="symbol" />
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projectAbsolute" class="project-wrapper">
+        <div class="project-description">
+          <h1>CoBAC Workplace</h1>
+          <p>
+            CoBAC ofisin sakin bir düzen içerisindeki kurgusu mimaristudio
+            tarafından Ham:m ürünleri ile birlikte tasarlandı.
+          </p>
+          <a href="#">İNCELE</a>
+        </div>
+        <img
+          id="projectAbsImg1"
+          src="./assets/project1.png"
+          alt="project image"
+        />
+        <img
+          id="projectAbsImg2"
+          src="./assets/project2.png"
+          alt="project image"
+        />
+      </div>
+    </div>
+    <div class="hamm-plus">
+      <div class="hamm-plus-content text-center">
+        <img
+          class="hamm-plus-logo"
+          src="./assets/hammplus.svg"
+          alt="sub logo"
+        />
+        <p>
+          BAMBAŞKA BİR YAŞAM <br />
+          İÇİN
+        </p>
+        <p class="golden">HAM:M PLUS</p>
+        <a href="#">İÇ MİMARLIK HİZMETİ AL</a>
+      </div>
+    </div>
+    <div class="fullWidthSliderContainer">
+      <div id="slider1" class="slider">
+        <div class="wrapper">
+          <div id="items1" class="items">
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/fullwidth_slide1.png"
+                alt="slide image"
+              />
+              <div class="fullwidth-slide-context">
+                <h5 class="brightDark">Şehri Evi</h5>
+                <span>
+                  <h6>2021</h6>
+                  <p>Sarıyer, İstanbul</p>
+                </span>
+              </div>
+            </span>
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/fullwidth_slide2.png"
+                alt="slide image"
+              />
+              <div class="fullwidth-slide-context">
+                <h5 class="brightDark">Genç Evi</h5>
+                <span>
+                  <h6>2021</h6>
+                  <p>Sarıyer, İstanbul</p>
+                </span>
+              </div>
+            </span>
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/fullwidth_slide3.png"
+                alt="slide image"
+              />
+              <div class="fullwidth-slide-context">
+                <h5>Polat Evi</h5>
+                <span>
+                  <h6>2021</h6>
+                  <p>Sarıyer, İstanbul</p>
+                </span>
+              </div>
+            </span>
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/fullwidth_slide4.png"
+                alt="slide image"
+              />
+              <div class="fullwidth-slide-context">
+                <h5>Kırşan Evi</h5>
+                <span>
+                  <h6>2021</h6>
+                  <p>Sarıyer, İstanbul</p>
+                </span>
+              </div>
+            </span>
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/slider2.png"
+                alt="slide image"
+              />
+              <div class="fullwidth-slide-context">
+                <h5>Polat Evi</h5>
+                <span>
+                  <h6>2021</h6>
+                  <p>Sarıyer, İstanbul</p>
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <a class="bottomLink" href="#">TÜMÜNÜ GÖR</a>
+    </div>
+    <div class="project-link backGrey text-center">
+      <div class="titleSet text-center">
+        <h3>Günce</h3>
+        <p>Keşfet. İlham al. Paylaş. Tüm yeniliklerden haberdar ol!</p>
+      </div>
+      <div id="slider2" class="slider">
+        <div class="wrapper">
+          <div id="items2" class="items">
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/project_link1.jpg"
+                alt="slide image"
+              />
+              <div class="project-link-context">
+                <h6>Etkinlik</h6>
+                <a href="#"><h2>Yeniyılda mimarlarla buluştuk</h2></a>
+                <span>01 Ocak 2022</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim.
+                </p>
+              </div>
+            </span>
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/project_link2.jpg"
+                alt="slide image"
+              />
+              <div class="project-link-context">
+                <h6>Etkinlik</h6>
+                <a href="#"><h2>Ham:m x Adidas dünya kupası</h2></a>
+                <span>18 Temmuz 2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim.
+                </p>
+              </div>
+            </span>
+            <span class="customSlide">
+              <img
+                class="slider-image"
+                src="./assets/project_link3.jpg"
+                alt="slide image"
+              />
+              <div class="project-link-context">
+                <h6>Sosyal Sorumluluk</h6>
+                <a href="#"><h2>Remo sergisi Ham:m’da</h2></a>
+                <span>23 Mayıs 2020</span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim.
+                </p>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <a class="bottomLink" href="#">TÜMÜNÜ GÖR</a>
+    </div>
+    <div class="footer">
+      <div class="footer-body">
+        <div class="footer-collapse-container">
+          <a href="#">
+            <img
+              class="footer-logo"
+              src="./assets/hamm_logo.svg"
+              alt="footer logo"
+            />
+          </a>
+          <div class="accordion accordion-flush" id="footerAccordionMenu">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="footerheadingShop">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#footercollapseShop"
+                  aria-expanded="false"
+                  aria-controls="footercollapseShop"
+                >
+                  Shop
+                </button>
+              </h2>
+              <div
+                id="footercollapseShop"
+                class="accordion-collapse collapse"
+                aria-labelledby="footerheadingShop"
+                data-bs-parent="#footerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#">Ürünler</a>
+                  <a class="collapse-sub-menu-item" href="#">Konseptler</a>
+                  <a class="collapse-sub-menu-item" href="#">E-Katalog</a>
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Malzeme Kütüphanesi</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="footerheadingPlus">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#footercollapsePlus"
+                  aria-expanded="false"
+                  aria-controls="footercollapsePlus"
+                >
+                  Plus
+                </button>
+              </h2>
+              <div
+                id="footercollapsePlus"
+                class="accordion-collapse collapse"
+                aria-labelledby="footerheadingPlus"
+                data-bs-parent="#footerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#">Plus Nedir</a>
+                  <a class="collapse-sub-menu-item" href="#">Plus Başvuru</a>
+                  <a class="collapse-sub-menu-item" href="#">Plus Evleri</a>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="footerheadingKuru">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#footercollapseKuru"
+                  aria-expanded="false"
+                  aria-controls="footercollapseKuru"
+                >
+                  Kurumsal
+                </button>
+              </h2>
+              <div
+                id="footercollapseKuru"
+                class="accordion-collapse collapse"
+                aria-labelledby="footerheadingKuru"
+                data-bs-parent="#footerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Kurumsal Projeler</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#">Başvuru</a>
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Kurumsal Katalog</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#"
+                    >2D / 3D Çizimler</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="footerheadingTasa">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#footercollapseTasa"
+                  aria-expanded="false"
+                  aria-controls="footercollapseTasa"
+                >
+                  Tasarımcılar
+                </button>
+              </h2>
+              <div
+                id="footercollapseTasa"
+                class="accordion-collapse collapse"
+                aria-labelledby="footerheadingTasa"
+                data-bs-parent="#footerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Tasarımcılarımız Kimler</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Tasarımcı Başvuru</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="footerheadingHakk">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#footercollapseHakk"
+                  aria-expanded="false"
+                  aria-controls="footercollapseHakk"
+                >
+                  Hakkımızda
+                </button>
+              </h2>
+              <div
+                id="footercollapseHakk"
+                class="accordion-collapse collapse"
+                aria-labelledby="footerheadingHakk"
+                data-bs-parent="#footerAccordionMenu"
+              >
+                <div class="accordion-body">
+                  <a class="collapse-sub-menu-item" href="#">Hikayemiz</a>
+                  <a class="collapse-sub-menu-item" href="#"
+                    >Sürdürülebilirlik</a
+                  >
+                  <a class="collapse-sub-menu-item" href="#">Ham:maddeler</a>
+                  <a class="collapse-sub-menu-item" href="#">Günce</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="additional-menu">
+            <a href="#">Kariyer</a>
+            <a href="#">Mağazalar</a>
+            <a href="#">İletişim</a>
+          </div>
+          <div class="social-icons">
+            <a class="social-icon-container" href="#">
+              <img src="./assets/facebook.svg" alt="facebook" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/twitter.svg" alt="twitter" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/instagram.svg" alt="instagram" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/youtube.svg" alt="youtube" />
+            </a>
+            <a class="social-icon-container" href="#">
+              <img src="./assets/pinterest.svg" alt="pinterest" />
+            </a>
+            <a id="footerLinkedin" class="social-icon-container" href="#">
+              <img src="./assets/linkedin.svg" alt="linkedin" />
+            </a>
+          </div>
+        </div>
+        <div class="footer-menu-container">
+          <div class="footer-menu">
+            <div class="footer-menu-title">shop</div>
+            <a href="#" class="footer-menu-item">Ürünler</a>
+            <a href="#" class="footer-menu-item">Konseptler</a>
+            <a href="#" class="footer-menu-item">E- Katalog</a>
+            <a href="#" class="footer-menu-item">Malzeme Kütüphanesi</a>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-menu-title">plus</div>
+            <a href="#" class="footer-menu-item">Plus Nedir</a>
+            <a href="#" class="footer-menu-item">Plus Başvuru</a>
+            <a href="#" class="footer-menu-item">Plus Evleri</a>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-menu-title">kurumsal</div>
+            <a href="#" class="footer-menu-item">Kurumsal Başvuru</a>
+            <a href="#" class="footer-menu-item">Projeler</a>
+            <a href="#" class="footer-menu-item">Kurumsal Katalog</a>
+            <a href="#" class="footer-menu-item">2D-3D Çizimler</a>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-menu-title">TASARIMCILAR</div>
+            <a href="#" class="footer-menu-item">Tasarımcılarımız Kimler</a>
+            <a href="#" class="footer-menu-item">Tasarımcı Başvuru</a>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-menu-title">HAKKIMIZDA</div>
+            <a class="footer-menu-item" href="#">Hikayemiz</a>
+            <a class="footer-menu-item" href="#">Sürdürülebilirlik</a>
+            <a class="footer-menu-item" href="#">Ham:maddeler</a>
+            <a class="footer-menu-item" href="#">Günce</a>
+          </div>
+          <div class="footer-menu">
+            <div class="footer-menu-title">HİKAYEMİZ</div>
+            <a href="#" class="footer-menu-item">Kariyer</a>
+            <a href="#" class="footer-menu-item">Mağazalar</a>
+            <a href="#" class="footer-menu-item">İletişim</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© Copyright © 2013-2021 Ham:m Design. Tüm hakları saklıdır</p>
+        <div class="footer-bottom-menu">
+          <a href="#">Gizlilik Politikası</a>
+          <a href="#">Mesafeli Satış Sözleşmesi</a>
+          <a href="#">Ön Bilgilendirme Formu</a>
+          <a href="#">Çerez Politikası</a>
+          <a href="#">KVKK Gizlilik Politikası</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/mainpage.js"></script>
+  </body>
+</html>

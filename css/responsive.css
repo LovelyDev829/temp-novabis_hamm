@@ -1,0 +1,640 @@
+@media screen and (max-width: 1023.98px) and (min-width: 800px) {
+  .navbar-container {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .collapse-menu.opened {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 799.98px) {
+  .navbar-container {
+    padding: 0;
+  }
+
+  .navbar-container .right-navbar {
+    display: none;
+  }
+
+  .main-menu,
+  .sub-menu-container {
+    display: none;
+  }
+
+  .main-menu-container.active {
+    background-color: #1b1b1b;
+  }
+
+  .collapse-toggle-btn {
+    display: block;
+  }
+
+  .text-area {
+    padding: 29px 33px 28xp 33px;
+  }
+
+  .text-area p {
+    font-size: 16px;
+  }
+
+  .text-area a {
+    font-size: 12px;
+    color: #1b1b1b;
+    border-bottom-color: #1b1b1b;
+  }
+
+  .sofa-section {
+    padding: 30px 15px 24px 15px;
+  }
+
+  .sofa-container a {
+    width: 159px;
+    height: 132px;
+  }
+
+  .sofa-container img {
+    height: 100%;
+  }
+
+  .sofa-text h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .sofa-text p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .sofa-text a {
+    font-size: 12px;
+  }
+
+  .background-clickable,
+  .hamm-plus {
+    height: 346px;
+  }
+
+  .background-clickable .sofa-text {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: auto;
+    width: 100%;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .lightbox-point {
+    top: calc(50% - 14px);
+    right: calc(50% - 14px);
+    display: none;
+  }
+
+  .lightbox {
+    top: -115px;
+    left: -89px;
+    display: block;
+    padding: 6px 6px 16px 6px;
+  }
+
+  .lightbox::before {
+    content: none;
+  }
+
+  .lightbox-img-container {
+    padding: 29px 26px 19px 26px;
+  }
+
+  .lightbox-img-container img {
+    width: 142px;
+  }
+
+  .lightbox-close {
+    top: 11px;
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .lightbox-text {
+    padding-top: 9px;
+  }
+
+  .lightbox-text h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .lightbox-text p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hamm-plus-content {
+    bottom: 24px;
+  }
+
+  .hamm-plus-logo {
+    width: 103px;
+    margin-bottom: 12px;
+  }
+
+  .hamm-plus-content p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .hamm-plus-content p.golden {
+    margin-bottom: 26px;
+  }
+
+  .hamm-plus-content a {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .footer {
+    padding: 24px 16px 33px 16px;
+  }
+
+  .footer-body {
+    padding-bottom: 20px;
+  }
+
+  .footer-logo {
+    margin-bottom: 24px;
+    width: 75px;
+  }
+
+  .footer-bottom {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  #footerAccordionMenu {
+    padding: 0 16px;
+  }
+
+  .our-project {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px 0 39px 25px;
+  }
+
+  #phantom-img {
+    display: none;
+  }
+
+  #projectAbsImg1 {
+    padding: 0 83px 0 7px;
+    max-width: 540px;
+  }
+
+  #projectAbsImg2 {
+    display: block;
+  }
+
+  .project-description {
+    padding-bottom: 32px;
+    padding-right: 25px;
+  }
+
+  .project-description h1 {
+    font-size: 23px;
+    color: #1d1d1d;
+  }
+
+  .project-description p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+
+  .project-description a {
+    color: #1d1d1d;
+    font-size: 12px;
+    border-bottom: 1px solid #1d1d1d;
+  }
+
+  #projectWithSlide,
+  #projectAbsolute {
+    width: 100%;
+  }
+
+  #projectAbsolute {
+    padding: 40px 0 0 0;
+  }
+
+  .slider .customSlide {
+    padding-right: 47px;
+  }
+
+  .slider .customSlide img {
+    height: 299px;
+    width: 258px;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .slide-context {
+    padding: 15px 5px 0 0;
+  }
+
+  .slide-text h5 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .slide-text p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .customSlide .slide-symbol-container,
+  .customSlide img.slide-symbol {
+    width: 31px;
+    height: 31px;
+  }
+
+  .customSlide .slide-symbol-container img {
+    transform: translate(-50%, -50%);
+    width: 21px;
+    height: 5px;
+  }
+
+  .fullwidth-slide-context h5 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  #slider1 {
+    padding-bottom: 0px;
+    padding-left: 27px;
+  }
+
+  .fullWidthSliderContainer .slider .customSlide {
+    padding-right: 47px;
+  }
+
+  .fullWidthSliderContainer a.bottomLink {
+    display: none;
+  }
+
+  .bottomLink {
+    font-size: 12px;
+    color: #1d1d1d;
+    border-bottom: 1px solid #1d1d1d;
+  }
+
+  .fullWidthSliderContainer {
+    padding: 29px 0 45px 0;
+  }
+
+  .fullwidth-slide-context {
+    padding-top: 17px;
+  }
+
+  .project-link {
+    padding: 26px 0 33px 0;
+  }
+
+  .titleSet h3 {
+    font-size: 18px;
+  }
+
+  .titleSet p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .project-link .slider .customSlide {
+    padding: 24px 20px 31px 20px;
+  }
+
+  .project-link .slider .customSlide img {
+    max-width: 236px;
+  }
+
+  .project-link-context {
+    text-align: left;
+    color: #0c0c0c;
+    padding-top: 18px;
+    max-width: 236px;
+  }
+
+  .project-link-context h6 {
+    padding-bottom: 7px;
+  }
+
+  .project-link-context h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .project-link-context p {
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 17px;
+  }
+
+  #items1 {
+    left: -305px;
+  }
+
+  #items {
+    left: -305px;
+  }
+
+  .title-image {
+    height: 447px;
+  }
+
+  .main-title-box {
+    bottom: 52px;
+    padding: 27px 40px 30px 28px;
+    max-width: 333px;
+  }
+
+  .main-title-box h6 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .main-title-box h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+
+  .main-title-box p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 659.98px) {
+  .picture-overlay {
+    padding-bottom: 20px;
+  }
+
+  .picture-overlay h6 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+  .picture-overlay p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .pictures-only-text h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  
+  .pictures-only-text h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .pictures-only-text {
+    padding: 36px 18px 46px 26px;
+  }
+
+  .pictures-with-link {
+    padding: 28px 30px 24px 18px;
+  }
+
+  .pictures-with-link p {
+    font-size: 10px;
+    line-height: 13px;
+    padding-bottom: 15px;
+  }
+  
+  .pictures-with-link a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 1299.98px) and (min-width: 800px) {
+  .project-link .slider .customSlide {
+    padding: 26px 30px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 991.98px) and (min-width: 800px) {
+  .project-link .slider .customSlide {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 799.98px) and (min-width: 630px) {
+  .project-link .slider .customSlide {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 629.98px) {
+  .project-link .slider .customSlide {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 471.98px) {
+  .left-navbar-item-content {
+    padding: 0 5px;
+    border-right: 0;
+  }
+
+  .collapse-toggle-btn {
+    left: 29px;
+    top: 26px;
+  }
+
+  .login {
+    top: 28px;
+    right: 24px;
+  }
+
+  .logo {
+    width: 99px;
+  }
+}
+
+@media screen and (max-width: 1479.98px) and (min-width: 1320px) {
+  .sub-menu-container {
+    padding: 30px 70px 70px 70px;
+  }
+}
+
+@media screen and (max-width: 1319.98px) and (min-width: 940px) {
+  .sub-menu-images {
+    gap: 10px;
+  }
+
+  .sub-menu-image {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 939.98px) and (min-width: 472px) {
+  .login {
+    right: 70px;
+  }
+}
+
+@media screen and (max-width: 939.98px) {
+  .sub-menu-images {
+    gap: 5px;
+  }
+
+  .sub-menu-image {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 1319.98px) and (min-width: 992px) {
+  .sub-menu-container {
+    padding: 30px 50px 50px 50px;
+  }
+}
+
+@media screen and (max-width: 1319.98px) and (min-width: 960px) {
+  .picture-overlay h6 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .picture-overlay p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .pictures-only-text h2 {
+    font-size: 38px;
+    padding-bottom: 10px;
+  }
+
+  .pictures-only-text h3 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .pictures-with-link p {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 15px;
+  }
+
+  .pictures-with-link a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 959.98px) {
+  .pictures-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .sub-menu-container {
+    padding: 30px 30px 50px 30px;
+  }
+}
+
+@media screen and (max-width: 1524.98px) {
+  #introCarousel .carousel-inner .carousel-item,
+  #introCarousel .carousel-inner .carousel-item video,
+  #introCarousel .carousel-inner .carousel-item img {
+    height: 713px;
+  }
+}
+
+@media screen and (min-width: 1160px) {
+  .sofas .col-lg-6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1199.98px) and (min-width: 1090px) {
+  .footer-bottom-menu a {
+    padding: 0 5px;
+  }
+
+  .footer-menu-container {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1089.98px) and (min-width: 970px) {
+  .footer-bottom-menu a {
+    padding: 0 4px;
+    font-size: 12px;
+  }
+
+  .footer-menu-container {
+    gap: 15px;
+  }
+
+  .footer-menu-item {
+    font-size: 12px;
+  }
+
+  .footer-body {
+    padding-bottom: 130px;
+  }
+}
+
+@media screen and (max-width: 969.98px) {
+  .footer-menu-container {
+    display: none;
+  }
+
+  .footer-collapse-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-bottom-menu {
+    display: none;
+  }
+
+  #footerLinkedin {
+    display: none;
+  }
+
+  #footerAccordionMenu {
+    display: block;
+  }
+
+  .additional-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 969.98px) and (min-width: 800px) {
+  .footer {
+    padding: 60px 9px 45px 9px;
+  }
+
+  .footer-body {
+    padding-bottom: 80px;
+  }
+
+  #footerAccordionMenu {
+    padding: 40px;
+  }
+}
