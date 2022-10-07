@@ -502,6 +502,87 @@
   .milestone-mobile {
     display: block;
   }
+
+  #plusDetayContainer1 {
+    padding-top: 81px;
+    padding-bottom: 14px;
+  }
+
+  #plusDetayImg1 {
+    width: 100%;
+  }
+
+  #plusDetayImg1.image-container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  #plusDetayText1Wrapper {
+    width: 100%;
+    padding-top: 26px;
+  }
+
+  #plusDetayText1 h5 {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+
+  #plusDetayText1 h1 {
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 16px;
+  }
+
+  #plusDetayText1 p {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 32px;
+  }
+
+  #plusDetayText1 h6 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  #plusDetayText1 span {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 10px;
+  }
+
+  .plus-logo {
+    width: 34px;
+    margin-right: 10px;
+  }
+
+  #plusDetayText2 {
+    display: none;
+  }
+
+  #plusDetayImg2 {
+    width: 100%;
+    height: 320px;
+  }
+
+  #plusDetayImg2Inner {
+    gap: 16px;
+    position: relative;
+  }
+
+  #plusDetayImg2 img {
+    height: 320px;
+  }
+
+  .plus-detay-text-area {
+    padding: 53px 22px 36px 30px;
+  }
+
+  .plus-detay-text-area p {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
 @media screen and (max-width: 659.98px) {
@@ -561,6 +642,12 @@
   }
 }
 
+@media screen and (max-width: 991.98px) {
+  .disappear-content {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 799.98px) and (min-width: 630px) {
   .project-link .slider .customSlide {
     width: 33.33%;
@@ -591,6 +678,10 @@
 
   .logo {
     width: 99px;
+  }
+
+  #plusDetayContainer1 {
+    padding-top: 74.2px !important;
   }
 }
 
@@ -874,5 +965,90 @@
 
   #mimage10 {
     width: 280.73px;
+  }
+}
+
+@media screen and (max-width: 599.98px) {
+  .project-image-list {
+    padding: 26px 0 0 0;
+  }
+
+  .small-label {
+    padding: 0 26px 24px 26px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .image-card {
+    padding: 0 24px 27px 24px;
+  }
+
+  .image-card-name {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .image-card-info-year {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .image-card-info-where {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .content-footer {
+    padding-bottom: 29px;
+  }
+
+  .content-footer a {
+    padding-top: 30px;
+  }
+
+  .spec-image-container img.spec-image {
+    top: 20px;
+    left: -24px;
+    margin-bottom: 20px;
+  }
+
+  .spec-detail-container {
+    padding: 34px 44px 28px 24px;
+  }
+
+  .spec-detail h1 {
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 22px;
+  }
+
+  .spec-detail p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 42px;
+  }
+
+  .spec-detail-footer-left {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .smaller {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .bigger {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .spec-detail-footer-right-logo {
+    width: 43px;
+    height: 43px;
+  }
+
+  .spec-detail-footer-right-logo img {
+    width: 29px;
   }
 }
